@@ -95,7 +95,7 @@ namespace ByteDev.AirVpn.IpLeak.Contract.Response
         public string TimeZone { get; set; }
 
         [JsonPropertyName("metro_code")]
-        public string MetroCode { get; set; }
+        public int MetroCode { get; set; }
         
         /// <summary>
         /// IP address.
